@@ -1,0 +1,22 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | {{page.title}}</title>
+<meta name="description" content='{{page.page_description}}'>
+<meta name="keywords" content='{{page.page_keywords}}'>
+{% endblock %}
+
+{% block body %}
+
+
+<section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">{{page.title}}</h2>
+            <p class="col-wide mlmr-a ta-center">
+                {% autoescape off %}{{page.context}}{% endautoescape %}
+            </p>
+</section>
+
+
+
+{% endblock %}

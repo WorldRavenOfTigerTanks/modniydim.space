@@ -1,0 +1,201 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | {{product.title}}</title>
+<meta name="description" content='{{product.page_description}}'>
+<meta name="keywords" content='{{product.page_keywords}}'>
+{% endblock %}
+
+{% block body %}
+
+
+
+{% if product.visible %}
+        <section class="row contained mt-5">
+            <div class="col-wide">
+
+  <div class="carousel">
+  <div class="slides">
+      {% if photos %}
+        {% for photo in photos %}
+            <img src="{{photo.image.url}}" alt="Фото товару">
+        {% endfor %}
+            <!-- Больше слайдов -->
+          </div>
+
+          <button class="prev">←</button>
+          <button class="next">→</button>
+        </div>
+
+        <!-- Блок для миниатюр -->
+        <div class="thumbnails">
+        {% for photo in photos %}
+          <img src="{{photo.image.url}}" alt="Мініатюрка" >
+        {% endfor %}
+
+        </div>
+    {% else %}
+
+            <img src="{{product.image.url}}" alt="Фото">
+
+            <!-- Больше слайдов -->
+          </div>
+
+          <button class="prev">←</button>
+          <button class="next">→</button>
+        </div>
+
+        <!-- Блок для миниатюр -->
+        <div class="thumbnails">
+
+          <img src="{{product.image.url}}" alt="" >
+
+
+        </div>
+    {% endif %}
+
+                <!-- BLOG DETAIL -->
+                <div class="row fc-primary fw-bold">
+
+                    <a href="#comments" class="fc-primary" aria-label="A link to comment section">
+                        <small class="ml-10"><i class="bi bi-chat-right-text"></i> Комментарі: {{con_num}} </small>
+                    </a>
+                    <small class="ml-a">{{product.time}}</small>
+                </div>
+
+                <!-- BLOG TITLE & CONTENT -->
+            <div class="row">
+                <div class="col-wide">
+                    <h2>{{product.title}}</h2>
+                    <p>
+                    {% autoescape off %}{{product.description}}{% endautoescape %}
+
+                </p>
+                </div>
+                <div class="col-slim">
+                    <h2>{% if product.sale %} <s>{{product.price}}</s> {{product.prise_on_sale}} {% else %} {{product.price}} {%endif%}грн.</h2>
+                    <form action="{% url 'pages:add_to_basket' product_id=product.id  %}" class="message-form mt-20 mb-25" method="post">
+                    {% csrf_token %}
+                        <h4>Розміри:</h4>
+                        <div class="row">
+
+                    {% for i in size %}
+                        <label class="custom-radio">
+                            <input type="radio" name="size" value="{{i}}" required>
+                            <span class="radio-text">{{i}}</span>
+                          </label>
+                    {% endfor %}
+                        </div>
+                        <hr>
+                        <h4>Кольори:</h4>
+                        <div class="row">
+
+                        {% for i in color %}
+                        <label class="custom-radio">
+                            <input type="radio" name="color" value="{{i}}" required>
+                            <span class="radio-text">{{i}}</span>
+                          </label>
+                    {% endfor %}
+                        </div>
+
+                    <input type="number" id="quantity" name='quantity' placeholder="Вкажіть кількість" min="1" value="1">
+
+                    <button type="submit" class="btn-bg1 border-round mt-20">У кошик</button>
+                        {% if not user.is_authorised %}
+<!--                                        <p class="mlmr-a" style="margin: 0; padding: 5px; background: lightyellow; color:orangered;">-->
+<!--                                            Ви не увійшли в аккаунт. Обрані товари не будуть зберігатись в кошику довго-->
+<!--                                        </p>-->
+
+
+                        {% endif %}
+                </form>
+                </div>
+
+            </div>
+
+
+
+
+
+                <hr>
+
+
+
+                <!-- BLOG COMMENTS SECTION -->
+                <ul class="comments-list" id="comments">
+                    {% if coms %}
+                    <li class="fs-h4">Комментарі:</li>
+
+                    {% for com in coms %}
+                    <li class="card-comment">
+                        {% if com.user.image %}
+                        <img src="{{com.user.image.url}}" alt="">
+                        {% endif %}
+                        <div class="info">
+                            <div class="row">
+                                <p class="fw-bold no-margin">{{com.user}}</p>
+                                <p class="no-margin ml-a">{{com.time}}</p>
+                            </div>
+                            <p>
+                                {{com.comment}}
+                            </p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                    {% else %}
+                    <p class="fw-bold no-margin">Комментарів немає. Бажаєте залишити перший?</p>
+                    {% endif %}
+                </ul>
+
+                <!-- BLOG LEAVE A COMMENT FORM -->
+            {% if user.is_authenticated %}
+                <form action="{% url 'pages:single' slug_prod=product.slug%}" class="message-form mt-50 mb-25" method="post">
+                    {% csrf_token %}
+                    <span class="fs-h4 mb-15">Залишити коментар</span>
+                    {{formCom.comment}}
+                    <button type="submit" class="btn-bg1 border-round mt-20">Надіслати</button>
+                </form>
+
+
+            {% else %}
+             <form action="{% url 'users:register' %}" class="message-form mt-50 mb-25">
+                    {% csrf_token %}
+                    <span class="fs-h4 mb-15">Залишити коментар</span>
+                      <textarea name="" id="" placeholder='Тільки зареєстровані користувачі можуть залишати комментарі' rows="5"></textarea>
+                    <button type="submit" class="btn-bg1 border-round mt-20">Зареєструватись</button>
+                </form>
+            {% endif %}
+            </div>
+
+
+            <div class="col-slim">
+                <div class="card-side">
+                    <!-- SIDE NAVIGATION OTHER BLOGS -->
+                    <span class="fs-h3 ff-damion">Новинки</span>
+                    <hr>
+                    {% for new in news %}
+                    <a href="{% url 'pages:single' slug_prod=new.slug %}" class="card-post">
+                        <img src="{{new.image.url}}" alt="">
+                        <div class="info">
+                            <p class="no-margin fw-bold">{{new.title}}</p>
+                            <small class="no-margin">{% if new.sale %} <s>{{new.price}}</s> {{new.prise_on_sale}} {% else %} {{new.price}} {%endif%}грн.</small>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+
+            </div>
+        </section>
+{% else %}
+
+<section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Нажаль</h2>
+            <h3 class="col-wide mlmr-a ta-center">
+                Цього товару більше немає в наявності, можете переглянути інші цікавинки
+            </h3>
+</section>
+
+{% endif %}
+
+{% endblock %}

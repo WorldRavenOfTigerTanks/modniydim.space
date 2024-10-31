@@ -1,0 +1,455 @@
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2287419] Child process with pid: 2287438 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2287419] Child process with pid: 2290111 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2287419] Child process with pid: 2290871 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2287419] Child process with pid: 2295242 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2287419] Child process with pid: 2295752 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2315842] Child process with pid: 2315871 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2315842] Child process with pid: 2315872 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385508 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385563 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385615 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385665 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385791 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385489] Child process with pid: 2385793 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385781] Child process with pid: 2385799 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385781] Child process with pid: 2385837 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385781] Child process with pid: 2385863 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2385781] Child process with pid: 2385881 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2488767] Child process with pid: 2488796 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+ModuleNotFoundError: No module named 'shop'
+[UID:2124][2488767] Child process with pid: 2488832 was killed by signal: 15, core dumped: no
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/layout.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /static/css/fontstyle.css
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/css/animation.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/css/style.css
+Not Found: /static/css/style2.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/fontstyle.css
+Not Found: /static/css/animation.css
+Not Found: /static/css/layout.css
+Not Found: /static/css/style2.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /static/css/style.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/css/layout.css
+Not Found: /static/css/style2.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/animation.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/css/style.css
+Not Found: /static/css/fontstyle.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/css/style2.css
+Not Found: /static/css/fontstyle.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/layout.css
+Not Found: /static/css/animation.css
+Not Found: /static/css/style.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /static/css/style2.css
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/layout.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u041a\u0438RAR\u0430_qX9hVuG.png/media/product_images/%D0%9A%D0%B8RAR%D0%B0_qX9hVuG.png
+Not Found: /media/product_images/\u0421\u044e\u0436\u0435\u0442_hNsHsl6.png/media/product_images/%D0%A1%D1%8E%D0%B6%D0%B5%D1%82_hNsHsl6.png
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /static/css/animation.css
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/css/fontstyle.css
+Not Found: /static/css/style.css
+Not Found: /static/css/style2.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/login.css
+Not Found: /favicon.ico
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/dashboard.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/css/changelists.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/js/filters.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/js/vendor/jquery/jquery.js
+Not Found: /static/admin/js/calendar.js
+Not Found: /static/admin/js/core.js
+Not Found: /static/admin/js/admin/DateTimeShortcuts.js
+Not Found: /static/admin/js/jquery.init.js
+Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+Not Found: /static/admin/js/actions.js
+Not Found: /static/admin/js/urlify.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/prepopulate.js
+Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+Not Found: /static/admin/js/prepopulate_init.js
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/forms.css
+Not Found: /static/admin/img/icon-addlink.svg
+Not Found: /static/admin/js/change_form.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/css/fontstyle.css
+Not Found: /static/css/animation.css
+Not Found: /static/css/style2.css
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/css/style.css
+Not Found: /static/css/layout.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/style2.css
+Not Found: /static/css/style.css
+Not Found: /static/css/layout.css
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-1_RntcCfI.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-1_RntcCfI.png
+Not Found: /static/icons/bootstrap-icons.css
+Not Found: /static/js/script.js
+Not Found: /media/product_images/\u0411\u0435\u0437_\u0438\u043c\u0435\u043d\u0438-2_D7jVejy.png/media/product_images/%D0%91%D0%B5%D0%B7_%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-2_D7jVejy.png
+Not Found: /static/css/animation.css
+Not Found: /static/css/fontstyle.css
+Not Found: /static/img/mdb-favicon.ico
+Not Found: /static/css/style2.css
+Not Found: /static/icons/bootstrap-icons.css
+<BasketQuerySet []>
+<BasketQuerySet []>
+<BasketQuerySet []>
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/settings.py", line 85
+    'PASSWORD':'82wlOGFsgh75fjD83DGrfg83bhFHB5ndjkoW8fpg'
+              ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/settings.py", line 85
+    'PASSWORD':'82wlOGFsgh75fjD83DGrfg83bhFHB5ndjkoW8fpg'
+              ^
+SyntaxError: invalid syntax
+[UID:2124][3285900] Child process with pid: 3285961 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 81, in __getattr__
+    self._setup(name)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 68, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/conf/__init__.py", line 166, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/settings.py", line 85
+    'PASSWORD':'82wlOGFsgh75fjD83DGrfg83bhFHB5ndjkoW8fpg'
+              ^
+SyntaxError: invalid syntax
+[UID:2124][3285900] Child process with pid: 3285963 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 25, in <module>
+    import psycopg as Database
+ModuleNotFoundError: No module named 'psycopg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 27, in <module>
+    import psycopg2 as Database
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/contrib/auth/models.py", line 5, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/contrib/auth/base_user.py", line 40, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/options.py", line 231, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/utils/connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 29, in <module>
+    raise ImproperlyConfigured("Error loading psycopg2 or psycopg module")
+django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 or psycopg module
+[UID:2124][3285900] Child process with pid: 3293267 was killed by signal: 15, core dumped: no
+Traceback (most recent call last):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 25, in <module>
+    import psycopg as Database
+ModuleNotFoundError: No module named 'psycopg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 27, in <module>
+    import psycopg2 as Database
+ModuleNotFoundError: No module named 'psycopg2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/apps/registry.py", line 116, in populate
+    app_config.import_models()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/apps/config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/contrib/auth/models.py", line 5, in <module>
+    from django.contrib.auth.base_user import AbstractBaseUser, BaseUserManager
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/contrib/auth/base_user.py", line 40, in <module>
+    class AbstractBaseUser(models.Model):
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/base.py", line 143, in __new__
+    new_class.add_to_class("_meta", Options(meta, app_label))
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/base.py", line 371, in add_to_class
+    value.contribute_to_class(cls, name)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/models/options.py", line 231, in contribute_to_class
+    self.db_table, connection.ops.max_name_length()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/utils/connection.py", line 15, in __getattr__
+    return getattr(self._connections[self._alias], item)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/utils/connection.py", line 62, in __getitem__
+    conn = self.create_connection(alias)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/utils.py", line 193, in create_connection
+    backend = load_backend(db["ENGINE"])
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/utils.py", line 113, in load_backend
+    return import_module("%s.base" % backend_name)
+  File "/opt/alt/python310/lib64/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/db/backends/postgresql/base.py", line 29, in <module>
+    raise ImproperlyConfigured("Error loading psycopg2 or psycopg module")
+django.core.exceptions.ImproperlyConfigured: Error loading psycopg2 or psycopg module
+Traceback (most recent call last):
+  File "/home3/modniydi/modniydim.space/Store/shop/passenger_wsgi.py", line 4, in <module>
+    from shop.wsgi import application
+  File "/home3/modniydi/modniydim.space/Store/shop/shop/wsgi.py", line 16, in <module>
+    application = get_wsgi_application()
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/home3/modniydi/virtualenv/modniydim.space/Store/shop/3.10/lib/python3.10/site-packages/django/apps/registry.py", line 83, in populate
+    raise RuntimeError("populate() isn't reentrant")
+RuntimeError: populate() isn't reentrant
+[UID:2124][3293290] Child process with pid: 3293331 was killed by signal: 15, core dumped: no
+<BasketQuerySet [<Basket: admin add tistle>]>
+<BasketQuerySet []>
+<BasketQuerySet []>
+<BasketQuerySet [<Basket: Ravshan add title>]>

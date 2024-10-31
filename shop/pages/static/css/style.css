@@ -1,0 +1,131 @@
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 40vw;
+  overflow: hidden;
+}
+
+.carousel img {
+
+  width: 100%;
+
+  object-fit: cover; /* Масштабирует изображение, чтобы заполнить контейнер */
+  object-position: center;
+}
+
+.slides {
+
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primaryColor);
+  border: none;
+  padding: 0 !important;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    width: -webkit-calc(var(--h4TextSize) * 2);
+    width: -moz-calc(var(--h4TextSize) * 2);
+    width: calc(var(--h4TextSize) * 2);
+    height: -webkit-calc(var(--h4TextSize) * 2);
+    height: -moz-calc(var(--h4TextSize) * 2);
+    height: calc(var(--h4TextSize) * 2);
+    font-size: var(--h4TextSize);
+    color: var(--textWhite);
+    -webkit-box-shadow: 0 8px 20px -10px var(--primaryColor);
+       -moz-box-shadow: 0 8px 20px -10px var(--primaryColor);
+            box-shadow: 0 8px 20px -10px var(--primaryColor);
+    z-index: 5;
+  cursor: pointer;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+
+
+
+
+.thumbnails {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.thumbnails img {
+  width: 100px; /* Размер миниатюры */
+  height: 50px;
+  cursor: pointer;
+  margin: 0 5px;
+  opacity: 0.6;
+}
+
+.thumbnails img.active {
+  opacity: 1;
+  border: 2px solid #000;
+}
+/* Стили вкладок */
+.tabs {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.tab:hover {
+    background: #bbb;
+}
+
+/* Скрытие радиокнопок */
+input[type="radio"] {
+    display: none;
+}
+
+/* Стили для активной вкладки */
+#tab1:checked + label,
+#tab2:checked + label,
+#tab3:checked + label {
+    background: var(--primaryColor);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* По умолчанию скрываем содержимое вкладок */
+.tab-content {
+    display: none;
+}
+
+/* Показываем содержимое выбранной вкладки */
+#tab1:checked ~ .content #content1,
+#tab2:checked ~ .content #content2,
+#tab3:checked ~ .content #content3 {
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 0.5em;
+    font-weight: bold;
+    line-height: 1;
+}
+

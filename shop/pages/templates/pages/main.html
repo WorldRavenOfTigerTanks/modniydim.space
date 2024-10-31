@@ -1,0 +1,60 @@
+{% extends 'pages/index.html'%}
+{% load static %}
+
+{% block body %}
+
+
+    {{baskets.total_quantity}}
+    {{baskets.total_sum}}
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+            {% if cat %}
+            <li class="breadcrumb-item">
+                / <a href="{% url 'pages:category_view' slug=cat.slug %}">{{cat.title}} </a>
+            </li>
+            {% endif %}
+
+  </ol>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            {% for ca in cats %}
+                <a href="{% url 'pages:category_view' slug=ca.slug %}" class="btn btn-primary" data-mdb-ripple-init>{{ca.title}}</a>
+            {% endfor %}
+        </div>
+
+
+
+        <div class="col-md-8">
+            <div class="container"><div class="row">
+            {% for prod in products %}
+            <div class="card col-4 m-1">
+              <div class="bg-image hover-overlay " data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img src="{{prod.image.url}}" class="img-fluid"/>
+                <a href="{% url 'pages:single' slug_prod=prod.slug %}">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">{{prod.title}}</h5>
+                <p class="card-text">{{prod.description}}</p>
+                <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+              </div>
+            </div>
+            {% endfor %}
+            </div></div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+{% endblock %}
+

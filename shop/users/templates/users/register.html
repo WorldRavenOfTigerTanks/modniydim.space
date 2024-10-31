@@ -1,0 +1,61 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | Зареєструватися</title>
+<meta name="description" content="Сторінка реєстрації нових користувачів">
+<meta name="keywords" content="Реєстрація">
+{% endblock %}
+
+{% block body %}
+
+
+{% if form.errors %}
+
+        <section class="contained" style="background: pink; color:darkred;">
+            <h2 class="section-title ff-damion" style="background: darkred; color:pink;">Помилка</h2>
+            <p class="col-wide ta-center mlmr-a">
+                {{ form.errors }}
+
+            </p>
+        </section>
+
+{% endif %}
+
+<section class="contained">
+            <h2 class="section-title ff-damion">Зареєструватись</h2>
+
+
+
+
+              <form action="{% url 'users:register' %}" class="message-form mt-50 mb-25" method="post">
+                  {% csrf_token %}
+                  <div class="row mb-20">
+                    {{form.first_name}}
+                    {{form.last_name}}
+
+                     </div>
+                <div class="row mb-20">
+                    {{form.username}}
+                    {{form.email}}
+
+                     </div>
+                <div class="row mb-20">
+
+
+                    {{form.password1}}
+                    {{form.password2}}
+                     </div>
+
+                   <button type="submit" class="btn-bg1 border-round mt-20">Завершити</button>
+              </form>
+    <p>Вже є аккаунт?</p>
+                <a type="submit" href="{%url 'users:login'%}" class="btn-bg1 border-round mt-20">Увійти</a>
+
+
+
+        </section>
+
+{% endblock %}
+
+

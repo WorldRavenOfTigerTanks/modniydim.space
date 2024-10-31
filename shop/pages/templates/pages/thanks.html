@@ -1,0 +1,26 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | Дякуємо за замовлення</title>
+<meta name="description" content='Дякуємо за замовлення'>
+<meta name="keywords" content='Дякуємо за замовлення'>
+{% endblock %}
+
+{% block body %}
+        {% if si %}
+        <section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Дякуємо</h2>
+            <h3 class="ta-center col-wide mlmr-a">
+                Незабаром вам зателефонують для уточнення інформації
+            </h3>
+        </section>
+        {% else %}
+        <section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Тут нічого немає</h2>
+            <h3 class="ta-center col-wide mlmr-a">
+                Повертайся туди, звідки прийшов
+            </h3>
+        </section>
+        {% endif %}
+{% endblock %}

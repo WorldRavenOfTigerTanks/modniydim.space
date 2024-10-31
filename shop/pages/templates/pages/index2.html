@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- DESCRIPTION OF THE PAGE -->
+
+
+    <!-- OG IMAGE IS THE IMAGE SHOWN WHEN YOUR WEBSITE LINK IS SHARED ON SOCIAL MEDIA -->
+    <meta property="og:image" content="{% static 'art/logo.png' %}">
+    <meta property="og:title" content="">
+    <meta name="twitter:card" content="summary_large_image">
+
+
+    {% block title%}
+
+    {% endblock %}
+
+    <link rel="preload" href="{% static 'img/mdb-favicon.ico' %}" as="style">
+    <link rel="preload" href="{% static 'css/fontstyle.css' %}" as="style">
+    <link rel="preload" href="{% static 'css/layout.css' %}" as="style">
+    <link rel="preload" href="{% static 'css/animation.css' %}" as="style">
+    <link rel="preload" href="{% static 'css/style.css' %}" as="style">
+
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <link rel="stylesheet" href="{% static 'icons/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontstyle.css' %}">
+    <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animation.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <link rel="icon" type="image/png" href="{% static 'img/mdb-favicon.ico' %}">
+</head>
+<body>
+<span class="fade"></span>
+{% block slider%}
+
+{% endblock %}
+        <!-- NAVIGATION START -->
+        <nav>
+            <div class="contained" style="padding: 0 20px">
+                <a href="{% url 'pages:index' %}" class="logo fc-primary ff-damion row flex-alig-center">
+                    <span class="fs-h2">Магія</span>
+                </a>
+                <input type="checkbox" name="tablet-mobile-menu" class="tab-mob-menu" aria-label="tablet and mobile menu">
+                <div class="navigation-container">
+                    <a href="{% url 'pages:index' %}">Головна</a>
+                    {% if pages %}
+                        {% for page in pages %}
+                            <a href="{% url 'pages:pages' page.slug%}">{{page.title}}</a>
+                        {% endfor %}
+                    {% endif %}
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'users:logout' %}">Вихід із аккаутну</a>
+
+                    {% else %}
+                    <a href="{% url 'users:register' %}">Зареєструватись</a>
+                    <a href="{% url 'users:login' %}">Вхід в аккаунт</a>
+                    {% endif %}
+                    <a href="{% url 'users:basket' %}">Кошик 🛒
+<!--                    <span class="badge">{{baskets.total_quantity}}</span>-->
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <a href="#" class="btn-back-to-top" aria-label="Back to top button">
+            <i class="bi bi-chevron-up">↑</i>
+        </a>
+        <!-- NAVIGATION END -->
+    {% block body%}
+
+    {% endblock %}
+
+</body>
+
+
+    <!-- FOOTER START -->
+    <footer class="fc-white">
+        <div class="contained row flex-just-center">
+
+            <!-- FOOTER WEBSITE MOTO START -->
+            <div class="col-balance">
+                <h3 class="ff-damion">Магія</h3>
+                <p>
+                    Дозвольте нам стати частиною вашого стилю і подарувати вам відчуття тепла та затишку.
+                </p>
+
+            </div>
+            <!-- FOOTER WEBSITE MOTO END -->
+
+
+            <!-- FOOTER SCHEDULE START -->
+<!--            <div class="col-quad">-->
+<!--                <h3 class="ff-damion">Opening hours</h3>-->
+<!--                <p class="mt-10 mb-10 fw-bold">-->
+<!--                    Monday - Friday:-->
+<!--                    <span class="fw-normal display-block">Closed</span>-->
+<!--                </p>-->
+<!--                <p class="mt-10 mb-10 fw-bold">-->
+<!--                    Saturday:-->
+<!--                    <span class="fw-normal display-block">8:00 - 8:01</span>-->
+<!--                </p>-->
+<!--                <p class="mt-10 mb-10 fw-bold">-->
+<!--                    Sunday:-->
+<!--                    <span class="fw-normal display-block">10:00 - 10:01</span>-->
+<!--                </p>-->
+<!--            </div>-->
+            <!-- FOOTER SCHEDULE END -->
+
+            <!-- FOOTER QUICK CONTACT START -->
+            <div class="col-quad">
+                <h3 class="ff-damion">Завжди на зв'язку</h3>
+                <a href="mailto:modniydomkristal@gmail.com" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-envelope-fill">📧</i>
+                    modniydomkristal@gmail.com
+                </a>
+                <a href="tel:+380503863914" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-telephone-fill">📞</i>
+                    +380 (50) 386 39 14
+                </a>
+<!--                <a href="#" class="display-inblock fc-white icon-link mt-20" aria-label="Follow on facebook">-->
+<!--                    <i class="bi bi-facebook"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on instagram">-->
+<!--                    <i class="bi bi-instagram"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on twitter">-->
+<!--                    <i class="bi bi-twitter"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on youtube">-->
+<!--                    <i class="bi bi-youtube"></i>-->
+<!--                </a>-->
+            </div>
+            <!-- FOOTER QUICK CONTACT END -->
+
+
+            <!-- FOOTER USEFUL LINKS START -->
+            <div class="col-quad">
+                <h3 class="ff-damion">Корисні посилання</h3>
+                {% if pages %}
+                        {% for page in pages %}
+                <a href="{% url 'pages:pages' page.slug%}" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    {{page.title}}
+                </a>
+                        {% endfor %}
+                    {% endif %}
+
+
+            </div>
+            <!-- FOOTER USEFUL LINKS END -->
+
+        </div>
+        <div class="copy ta-center fc-white">
+            <small>&copy; Магія - Copyright 2024</small>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+<script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+</html>

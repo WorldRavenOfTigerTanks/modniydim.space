@@ -1,0 +1,53 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | {{cat.title}}</title>
+<meta name="description" content='{{cat.page_description}}'>
+<meta name="keywords" content='{{cat.page_keywords}}'>
+{% endblock %}
+
+{% block body %}
+
+{% if products %}
+        <!-- BLOGS ENTRY START -->
+        <section class="contained">
+            <h2 class="section-title ff-damion">{{cat.title}}</h2>
+            <p class="ta-center col-wide mlmr-a">
+                {{cat.page_description}}
+            </p>
+            <div class="row flex-just-center">
+                {% for prod in products %}
+                <div class="col-quad">
+                    <article class="card-blog ">
+                        <a href="{% url 'pages:single' slug_prod=prod.slug %}" class="">
+
+                            <img src="{{prod.image.url}}" alt="">
+
+
+                            <div class="info">
+                                <h3 class="lt-1 mt-5 mb-5 ff-damion fc-primary">{{prod.title}}</h3>
+                                <p class="ml-a mt-5">{% if prod.sale %}
+
+                                    <s>{{prod.price}}</s> {{prod.prise_on_sale}} {% else %} {{prod.price}} {%endif%}грн.</p>
+                            </div>
+                            <p class="ml-10 mt-5 mb-20 lt-3">
+                                {{prod.short_description}}
+                            </p>
+
+                                 <i class="btn-bg1 border-round">Більше інформації</i>
+                        </a>
+                    </article>
+                </div>
+                {%endfor%}
+            </div>
+        </section>
+{% else %}
+        <section class="contained">
+            <h2 class="section-title ff-damion">{{cat.title}}</h2>
+            <h3 class="ta-center col-wide mlmr-a">
+                На данний момент в цій категорії немає товарів, спробуйте зазирнути пізніше
+            </h3>
+        </section>
+{% endif %}
+  {% endblock %}

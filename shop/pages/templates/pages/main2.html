@@ -1,0 +1,170 @@
+{% extends 'pages/index2.html'%}
+{% load static %}
+
+{% block title %}
+<title>Магія | Інтернет-магазин одягу</title>
+<meta name="description" content="У нашому Модному Домі ви знайдете вироби, які підкреслять вашу індивідуальність і додадуть вашому образу особливого шарму. Кожен виріб, створений нами, унікальний, як і ви. Ми пропонуємо широкий асортимент: від затишних светрів до вишуканих аксесуарів, які стануть чудовим доповненням вашого гардероба.">
+<meta name="keywords" content="Магія, светр, сукня, костюм, зв’язаний вручну, ексклюзивноа річ, справжній витвір мистецтва, одяг, стиль, комфорт, створення з душею, натуральні матеріали, найвища якість, довговічність">
+{% endblock %}
+
+{% block slider%}
+
+
+    <!-- FADE OUT ANIMATION WHEN LOADED -->
+    <span class="fade"></span>
+    <main>
+        <!-- MAIN HERO BANNER START -->
+        <section class="hero-banner">
+            <div class="hero-contained">
+                <div class="hero-title fc-white">
+                    <h1 class="ff-damion">Магія</h1>
+                    <p class="fs-h4 fw-normal">
+                        Ласкаво просимо до нашого Модного Дому "Магія"!
+                    </p>
+                    <a href="#about" class="btn-bg2 border-round mt-20">
+                        Дізнатись більше <i class="bi bi-chevron-compact-right"></i>
+                    </a>
+                </div>
+            </div>
+<!--            <div class="hero-socials">-->
+<!--                <a href="#" class="mt-a icon-link" aria-label="Follow us on facebook">-->
+<!--                    <i class="bi bi-facebook"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="icon-link mt-10" aria-label="Follow us on instagram">-->
+<!--                    <i class="bi bi-instagram"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="icon-link mt-10" aria-label="Follow us on twitter">-->
+<!--                    <i class="bi bi-twitter"></i>-->
+<!--                </a>-->
+<!--                <a href="#" class="icon-link mt-10" aria-label="Follow us on youtube">-->
+<!--                    <i class="bi bi-youtube"></i>-->
+<!--                </a>-->
+<!--            </div>-->
+        </section>
+        <!-- MAIN HERO BANNER END -->
+
+
+{% endblock %}
+
+
+{% block body %}
+
+
+        <!-- TEAM SECTION START -->
+        <section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Категорії</h2>
+
+            <div class="row flex-just-center">
+                {% if sales %}
+                <div class="col-quad"><article class="card-team">
+
+                        <a href="{% url 'pages:sales' %}" ><img src="{{sales.image.url}}" alt=""></a>
+
+                        <h3 class="title ff-damion">{{sales.title}}</h3>
+                        <div class="info">
+                            <a href="{% url 'pages:sales' %}" class="bg-primary">
+                            <h3 class="ff-damion">{{sales.title}}</h3>
+                            <p>
+                                {{sales.page_description}}
+                            </p>
+                            </p></a>
+                        </div>
+
+
+
+                </article></div>
+                {% endif %}
+                {% for ca in cats %}
+                <div class="col-quad"><article class="card-team">
+
+                        <a href="{% url 'pages:category_view' slug=ca.slug %}" ><img src="{{ca.image.url}}" alt=""></a>
+
+                        <h3 class="title ff-damion">{{ca.title}}</h3>
+                        <div class="info">
+                            <a href="{% url 'pages:category_view' slug=ca.slug %}" class="bg-primary">
+                            <h3 class="ff-damion">{{ca.title}}</h3>
+                            <p>
+                                {{ca.page_description}}
+                            </p>
+                            </p></a>
+                        </div>
+
+
+
+                </article></div>
+               {% endfor %}
+            </div>
+            <br>
+        </section>
+
+        <section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Новинки</h2>
+
+            <div class="row flex-just-center ">
+                {% for prod in news %}
+                <div class="col-quad">
+                    <article class="card-blog ">
+                        <a href="{% url 'pages:single' slug_prod=prod.slug %}" class="">
+                            <img src="{{prod.image.url}}" alt="">
+
+
+                            <div class="info">
+                                <h3 class="lt-1 mt-5 mb-5 ff-damion fc-primary">{{prod.title}}</h3>
+                                <p class="ml-a mt-5">{% if prod.sale %} <s>{{prod.price}}</s> {{prod.prise_on_sale}} {% else %} {{prod.price}} {%endif%}грн.</p>
+                            </div>
+                            <p class="ml-10 mt-5 mb-20 lt-3">
+                                {{prod.short_description}}
+                            </p>
+
+                                 <i class="btn-bg1 border-round">Глянути новинку</i>
+                        </a>
+                    </article>
+                </div>
+                {%endfor%}
+            </div>
+        </section>
+        <!-- PREVIEW BLOGS SECTION END -->
+
+        <!-- PREVIEW BLOGS SECTION START -->
+        <section class="contained">
+            <h2 class="section-title ff-damion bg-primary-foot">Товари</h2>
+            <div class="row flex-just-center ">
+                {% for prod in products %}
+                <div class="col-quad">
+                    <article class="card-blog ">
+                        <a href="{% url 'pages:single' slug_prod=prod.slug %}" class="">
+                            <img src="{{prod.image.url}}" alt="">
+
+
+                            <div class="info">
+                                <h3 class="lt-1 mt-5 mb-5 ff-damion fc-primary">{{prod.title}}</h3>
+                                <p class="ml-a mt-5">{% if prod.sale %} <s>{{prod.price}}</s> {{prod.prise_on_sale}} {% else %} {{prod.price}} {%endif%}грн.</p>
+                            </div>
+                            <p class="ml-10 mt-5 mb-20 lt-3">
+                                {{prod.short_description}}
+                            </p>
+
+                                 <i class="btn-bg1 border-round">Більше інформації</i>
+                        </a>
+                    </article>
+                </div>
+                {%endfor%}
+            </div>
+        </section>
+        <!-- PREVIEW BLOGS SECTION END -->
+
+
+        <section class="contained ta-center" id="about">
+            <h2 class="section-title ff-damion" >Про нас</h2>
+            <p class="col-wide mlmr-a">
+                Ми – команда майстрів, які створюють унікальні вироби з любов'ю та турботою. Кожен наш светр, сукня або костюм зв’язаний вручну, що робить його не просто ексклюзивною річчю, а справжнім витвором мистецтва. Ми віримо, що одяг має бути не лише стильним, але й теплим, комфортним та створеним з душею. Наші майстри використовують тільки натуральні матеріали найвищої якості, щоб кожна річ радувала вас протягом багатьох років.
+</p>
+            <p class="col-wide mlmr-a mt-10">
+У нашому Модному Домі ви знайдете вироби, які підкреслять вашу індивідуальність і додадуть вашому образу особливого шарму. Кожен виріб, створений нами, унікальний, як і ви. Ми пропонуємо широкий асортимент: від затишних светрів до вишуканих аксесуарів, які стануть чудовим доповненням вашого гардероба.
+</p>
+        </section>
+
+    </main>
+
+
+{% endblock %}
